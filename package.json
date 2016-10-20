@@ -1,0 +1,31 @@
+{
+  "name": "react_fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "jquery": "^3.1.1",
+    "raven-js": "^3.7.0",
+    "react": "^15.3.2",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
